@@ -1,0 +1,286 @@
+body {
+    background-color:burlywood;
+    margin: 0px;
+    padding: 0px;
+}
+[data-tab-info] {
+    display: none;
+}
+.active[data-tab-info] {
+    display: block;
+}
+.tab-content {
+    overflow: hidden;
+}
+.btn-box {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.btn-box button {
+    font-size: 18px;
+    font-weight: bold;
+    background: white;
+}
+.btn-box button:hover {
+    color: green;
+    cursor: pointer;
+}
+h1 {
+    color: white;
+    background: darkred;
+    text-align: center;
+    padding-right: 80px;
+}
+.headerImages {
+    height: 180px;
+    width: 308px;
+    padding-bottom: 8px;
+    padding-left: 17px;
+    display: inline-flex;
+    justify-content: space-around;
+}
+.infoSections {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-align: center;
+    width: 65%;
+    margin: auto;
+}
+.textHeaders {
+    color: white;
+    font-size: 24px;
+    height: auto;
+    text-align: center;
+}
+#powerBiHeader {
+    background: black;
+}
+#javascriptHeader {
+    background: black;
+}
+#pythonHeader {
+    background: black;
+}
+#sheetsHeader {
+    background: black;
+}
+#activitiesHeader {
+    background: green;
+}
+#showsHeader {
+    background: blue;
+}
+#moviesHeader {    
+    background: purple;
+}
+#skillsHeader {
+    background: darkslategrey;
+}
+#countdownHeader {
+    color: darkred;
+    text-align: center;
+    align-items: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 25px;
+}
+.lists {
+    font-size: medium;
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+    align-items: center;
+    line-height: 35px;
+    list-style-type: none;
+}
+#activitiesList {
+    background: lightgreen;
+}
+#showsList {
+    background: lightblue;
+}
+#moviesList {
+    background: lightpink;
+}
+#skillsList {
+    background: lightgrey;
+}
+#baseballImg {
+    width: 60%;
+    display: block;
+    margin: auto;
+    padding-bottom: 35px;
+}
+#basketballImg {
+    width: 60%;
+    display: block;
+    margin: auto;
+    padding-bottom: 35px;
+}
+#universitiesImg {
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+#madLibsImg {
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+#webScrapingImg {
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+#top5PlayersImg {
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+#mathGameImg {
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+#dataAssignmentImg {
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+#weatherAmsterdamImg {
+    width: 60%;
+    display: block;
+    margin: auto;  
+}
+.countdownFiles {
+    width: 46%;
+    margin-left: 24px;
+    margin-right: 24px;
+    align-items: center;
+    display: inline-block;
+    justify-content: space-around;
+}
+.powerBiLinks {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+#baseballLink {
+    color: red;
+    font-size: larger;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#baseballSqlLink {
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#basketballLink {
+    color: blue;
+    font-size: larger;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#basketballSqlLink {
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#universitiesLink {
+    color: green;
+    font-size: larger;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#universitiesSqlLink {
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#javascriptProject1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: green;
+    display: block;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+#javascriptProject2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: orange;
+    display: block;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+#pythonProject1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: orangered;
+    display: block;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+#pythonProject2 {
+    padding-top: 25px;
+    padding-bottom: 10px;
+    color: darkred;
+    display: block;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+#pythonProject3 {
+    padding-top: 25px;
+    padding-bottom: 10px;
+    color: darkmagenta;
+    display: block;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+#sheetsProject1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: brown;
+    display: block;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+#sheetsProject2 {
+    padding-top: 25px;
+    padding-bottom: 10px;
+    color: orangered;
+    display: block;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
